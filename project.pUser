@@ -1,0 +1,183 @@
+{
+  "WorkspaceSettings": [
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Unit tests\\Unit tests.pUnitTests",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Unit tests\\Unit tests.pUnitTests",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Visible",
+        "ExplorerWidth": 0.0
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Processes\\Numberals to numbers.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 0.0,
+        "Y": 0.0,
+        "DocScale": 0.82537794
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Processes\\numberals_ValidatePower.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 4003.8757,
+        "Y": 1103.5416,
+        "DocScale": 0.5654521
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Processes\\numberals_ValidatePower.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Visible",
+        "ExplorerWidth": 0.0
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Processes\\numberals_ValidatePower.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Controller_numberals.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 0.0,
+        "Y": 0.0,
+        "DocScale": 1.0
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Main_numberals.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 0.0,
+        "Y": 0.0,
+        "DocScale": 0.48035124
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Main_numberals.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Collapsed",
+        "ExplorerWidth": 0.0
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Main_numberals.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Processes\\numberals_IntegerToString.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 459.8194,
+        "Y": 174.63858,
+        "DocScale": 0.6973573
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Processes\\Numberals to numbers.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Processes\\Numberals to numbers.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Visible",
+        "ExplorerWidth": 0.0
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Processes\\Numbers to Numberals.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 819.7363,
+        "Y": 1253.1127,
+        "DocScale": 0.6563369
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Processes\\Numbers to Numberals.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Processes\\Numbers to Numberals.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Collapsed",
+        "ExplorerWidth": 0.0
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Processes\\Numberals to numbers Hundreds.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 0.0,
+        "Y": 29.017776,
+        "DocScale": 0.72467995
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Processes\\Numberals to numbers Hundreds.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Processes\\Numberals to numbers Hundreds.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Collapsed",
+        "ExplorerWidth": 0.0
+      }
+    }
+  ],
+  "ActiveDesignerFileName": "Processes\\Numbers to Numberals.pAutomation"
+}

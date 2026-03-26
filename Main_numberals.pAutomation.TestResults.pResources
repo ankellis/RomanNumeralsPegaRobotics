@@ -1,0 +1,44 @@
+{
+  "Resources": [
+    {
+      "Name": "TestResults",
+      "Value": {
+        "AutomationId": "Automator-8DE7F83FFDDAC4C",
+        "TestCaseResultSet": [
+          {
+            "TestCaseId": "TestCase-8DE7F91D32A5A14",
+            "TestCaseResults": [
+              {
+                "TestCaseName": "Testcase1",
+                "TestCaseId": "TestCase-8DE7F91D32A5A14",
+                "Executed": true,
+                "Message": "The test passed.",
+                "AutomationModifiedTime": "2026-03-25T14:55:28.0956331-04:00",
+                "StartTime": "2026-03-17T14:41:20.8932175-04:00",
+                "ExecutionTime": "00:00:00.0649180"
+              },
+              {
+                "TestCaseName": "Testcase1",
+                "TestCaseId": "TestCase-8DE7F91D32A5A14",
+                "Executed": true,
+                "TestResult": "Failure",
+                "Message": "The test failed.\r\n\r\nThe conditional expression '1 AND 2' is FALSE.\r\n\r\nFailed conditions:\r\nThe system received an unexpected value ('IV') for condition 1,'Result'.The condition 'Result is equal to ' is FALSE.\r\n\r\nThe system received an unexpected value ('ExitPoint') for condition 2,'Exit point'.The condition 'Exit point is equal to ' is FALSE.",
+                "StartTime": "2026-03-17T14:41:15.6886575-04:00",
+                "ExecutionTime": "00:00:00.0705988"
+              },
+              {
+                "TestCaseName": "Testcase1",
+                "TestCaseId": "TestCase-8DE7F91D32A5A14",
+                "Executed": true,
+                "Message": "The test passed.",
+                "AutomationModifiedTime": "2026-03-17T14:26:46.9108177-04:00",
+                "StartTime": "2026-03-11T17:15:52.8277609-04:00",
+                "ExecutionTime": "00:00:00.0283478"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

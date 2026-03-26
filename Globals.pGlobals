@@ -1,0 +1,23 @@
+<OpenSpanDesignDocument Version="25.1.0.16" Serializer="2.0" Culture="en-US">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Automation.GlobalContainer" />
+    <Assembly Value="OpenSpan.Automation" />
+    <Dependencies />
+    <AssemblyReferences>
+      <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Automation, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Controls, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="Pega.Scripting, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences />
+    <StartAtRuntime Value="True" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Automation.GlobalContainer Name="Globals" Id="GlobalContainer-8DE7F83FFDDFDCB" />
+  </Component>
+</OpenSpanDesignDocument>

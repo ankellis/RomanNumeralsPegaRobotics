@@ -1,0 +1,19 @@
+<OpenSpanDesignDocument Version="25.1.0.16" Serializer="2.0" Culture="en-US">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Automation.TestExplorer" />
+    <Assembly Value="OpenSpan.Automation" />
+    <Dependencies />
+    <AssemblyReferences>
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Automation, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences />
+    <StartAtRuntime Value="False" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Automation.TestExplorer Name="Unit tests" Id="TestExplorer-8DE7F91D3378DE8" />
+  </Component>
+</OpenSpanDesignDocument>

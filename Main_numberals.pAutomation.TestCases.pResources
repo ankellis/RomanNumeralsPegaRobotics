@@ -1,0 +1,98 @@
+{
+  "Resources": [
+    {
+      "Name": "TestCases",
+      "Value": {
+        "AutomationId": "Automator-8DE7F83FFDDAC4C",
+        "Signature": {
+          "ReturnType": "string",
+          "Params": [
+            {
+              "Name": "param1",
+              "Type": "int",
+              "In": true,
+              "Simple": true
+            },
+            {
+              "Name": "_param1",
+              "Index": 1,
+              "Type": "string",
+              "Out": true,
+              "Simple": true
+            },
+            {
+              "Name": "_param2",
+              "Index": 2,
+              "Type": "bool",
+              "Out": true,
+              "Simple": true
+            }
+          ],
+          "SimpleReturn": true,
+          "Simple": true,
+          "Name": "_EntryPointExecute"
+        },
+        "TestCases": [
+          {
+            "TestCaseId": "TestCase-8DE7F91D32A5A14",
+            "AutomationId": "Automator-8DE7F83FFDDAC4C",
+            "TestCaseName": "Testcase1",
+            "SupportedEnvironments": [],
+            "IncludeInBatchExecution": true,
+            "OutcomeConditions": [
+              {
+                "Id": 1,
+                "Field": {
+                  "Name": "Result",
+                  "AliasName": "Result",
+                  "Position": -1,
+                  "TypeName": "System.String"
+                },
+                "Relationship": "IsEqualTo",
+                "ExpectedValue": "IV"
+              },
+              {
+                "Id": 2,
+                "Field": {
+                  "Name": "Exit point",
+                  "AliasName": "Exit point",
+                  "Position": -1,
+                  "TypeName": "System.String"
+                },
+                "Relationship": "IsEqualTo",
+                "ExpectedValue": "ExitPoint"
+              }
+            ],
+            "ParamTestDataEntries": [
+              {
+                "Name": "param1",
+                "AliasName": "InputNum",
+                "ValueText": "4",
+                "TypeName": "System.Int32",
+                "IsIn": true
+              },
+              {
+                "Name": "_param1",
+                "AliasName": "msg",
+                "Position": 1,
+                "TypeName": "System.String"
+              },
+              {
+                "Name": "_param2",
+                "AliasName": "TechError",
+                "Position": 2,
+                "TypeName": "System.Boolean"
+              }
+            ],
+            "ReturnTestData": {
+              "Name": "Result",
+              "AliasName": "Result",
+              "Position": -1,
+              "TypeName": "System.String"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

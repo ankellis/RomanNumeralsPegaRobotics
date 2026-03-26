@@ -1,0 +1,124 @@
+<OpenSpanDesignDocument Version="25.1.0.16" Serializer="2.0" Culture="en-US">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Design.DesignForm" />
+    <Assembly Value="OpenSpan" />
+    <Dependencies />
+    <AssemblyReferences>
+      <Assembly Value="OpenSpan, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences />
+    <StartAtRuntime Value="True" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Design.DesignForm Name="UI_numberals" Id="DesignForm-8DE8431842A8A82">
+      <AutoScaleDimensions Value="6, 13" />
+      <BackColor Value="Control" />
+      <ClientSize Value="295, 346" />
+      <StartPosition Value="CenterScreen" />
+      <TabIndex Value="0" />
+      <Content Name="Controls">
+        <Items>
+          <System.Windows.Forms.Label Name="lbl_UpdateMessage" Id="Label-8DE8432A68069D8">
+            <AutoSize Value="True" />
+            <Font Value="Segoe UI, 14.25pt, style=Bold" />
+            <Location Value="55, 144" />
+            <Sensitive Value="False" Extended="True" />
+            <Size Value="167, 25" />
+            <TabIndex Value="6" />
+            <Text Value="Waiting for Input" />
+            <TextAlign Value="TopCenter" />
+            <Content Name="DataBindings">
+              <System.Windows.Forms.ControlBindingsCollection>
+                <DefaultDataSourceUpdateMode Value="OnValidation" />
+              </System.Windows.Forms.ControlBindingsCollection>
+            </Content>
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.Label Name="Label3" Id="Label-8DE843212F4D58D">
+            <AutoSize Value="True" />
+            <ImageKey Value="(none)" />
+            <Location Value="158, 34" />
+            <Sensitive Value="False" Extended="True" />
+            <Size Value="42, 13" />
+            <TabIndex Value="5" />
+            <Text Value="Result:" />
+            <Content Name="DataBindings">
+              <System.Windows.Forms.ControlBindingsCollection>
+                <DefaultDataSourceUpdateMode Value="OnValidation" />
+              </System.Windows.Forms.ControlBindingsCollection>
+            </Content>
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.Label Name="Label2" Id="Label-8DE843211C130EE">
+            <AutoSize Value="True" />
+            <Location Value="36, 34" />
+            <Sensitive Value="False" Extended="True" />
+            <Size Value="38, 13" />
+            <TabIndex Value="4" />
+            <Text Value="Input:" />
+            <Content Name="DataBindings">
+              <System.Windows.Forms.ControlBindingsCollection>
+                <DefaultDataSourceUpdateMode Value="OnValidation" />
+              </System.Windows.Forms.ControlBindingsCollection>
+            </Content>
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.TextBox Name="TextBox2" Id="TextBox-8DE8431ECF07C1B">
+            <Location Value="158, 50" />
+            <Sensitive Value="False" Extended="True" />
+            <Size Value="100, 22" />
+            <TabIndex Value="3" />
+            <Content Name="DataBindings">
+              <System.Windows.Forms.ControlBindingsCollection>
+                <DefaultDataSourceUpdateMode Value="OnValidation" />
+              </System.Windows.Forms.ControlBindingsCollection>
+            </Content>
+          </System.Windows.Forms.TextBox>
+          <System.Windows.Forms.Button Name="Button1" Id="Button-8DE8431E059479F">
+            <Location Value="91, 88" />
+            <Sensitive Value="False" Extended="True" />
+            <Size Value="100, 32" />
+            <TabIndex Value="2" />
+            <Text Value="Convert" />
+            <UseVisualStyleBackColor Value="True" />
+            <Content Name="DataBindings">
+              <System.Windows.Forms.ControlBindingsCollection>
+                <DefaultDataSourceUpdateMode Value="OnValidation" />
+              </System.Windows.Forms.ControlBindingsCollection>
+            </Content>
+          </System.Windows.Forms.Button>
+          <System.Windows.Forms.Label Name="Label1" Id="Label-8DE8431931DC41D">
+            <AutoSize Value="True" />
+            <Location Value="36, 191" />
+            <Sensitive Value="False" Extended="True" />
+            <Size Value="222, 117" />
+            <TabIndex Value="1" />
+            <Text Value="Enter Roman Numerals or Whole Number:&#xD;&#xA;&#xD;&#xA;I = 1&#xD;&#xA;V = 5&#xD;&#xA;X = 10&#xD;&#xA;L = 50&#xD;&#xA;C = 100&#xD;&#xA;D = 500&#xD;&#xA;M = 1000" />
+            <Content Name="DataBindings">
+              <System.Windows.Forms.ControlBindingsCollection>
+                <DefaultDataSourceUpdateMode Value="OnValidation" />
+              </System.Windows.Forms.ControlBindingsCollection>
+            </Content>
+          </System.Windows.Forms.Label>
+          <System.Windows.Forms.TextBox Name="TextBox1" Id="TextBox-8DE84318B7B9AEC">
+            <Location Value="36, 50" />
+            <Sensitive Value="False" Extended="True" />
+            <Size Value="100, 22" />
+            <TabIndex Value="0" />
+            <Content Name="DataBindings">
+              <System.Windows.Forms.ControlBindingsCollection>
+                <DefaultDataSourceUpdateMode Value="OnValidation" />
+              </System.Windows.Forms.ControlBindingsCollection>
+            </Content>
+          </System.Windows.Forms.TextBox>
+        </Items>
+      </Content>
+      <Content Name="DataBindings">
+        <System.Windows.Forms.ControlBindingsCollection>
+          <DefaultDataSourceUpdateMode Value="OnValidation" />
+        </System.Windows.Forms.ControlBindingsCollection>
+      </Content>
+    </OpenSpan.Design.DesignForm>
+  </Component>
+</OpenSpanDesignDocument>

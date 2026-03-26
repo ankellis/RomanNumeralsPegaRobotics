@@ -1,0 +1,1408 @@
+<OpenSpanDesignDocument Version="25.1.0.16" Serializer="2.0" Culture="en-US">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Automation.Automator" />
+    <Assembly Value="OpenSpan.Automation" />
+    <Dependencies />
+    <AssemblyReferences>
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Automation, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Controls, Version=25.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences />
+    <StartAtRuntime Value="False" />
+    <External Value="True" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Automation.Automator Name="numberals_IntegerToString" Id="Automator-8DE8A7A840D6524">
+      <AutomationDocument>
+        <Name Value="" />
+        <Size Value="6035, 5004" />
+        <Objects>
+          <ConnectionBlock>
+            <ConnectableUniqueId Value="Automator-8DE8A7A840D6524\EntryPoint-8DE8A7A9212A01C" />
+            <Left Value="160" />
+            <Top Value="300" />
+            <PartID Value="1" />
+            <Collapsed Value="False" />
+          </ConnectionBlock>
+        </Objects>
+        <Links />
+        <Comments />
+        <SubGraphs />
+      </AutomationDocument>
+      <IsExternal Value="True" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="_EntryPointExecute" aliasName="Run" visibility="DefaultOn" source="" blockTypeName="OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock" returnTypeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" returnType="System.Void" />
+        </Items>
+      </Content>
+    </OpenSpan.Automation.Automator>
+    <OpenSpan.Automation.EntryPoint Name="EntryPoint1" Id="EntryPoint-8DE8A7A9212A01C">
+      <AliasName Value="Run" />
+      <ComponentName Value="Run" />
+      <DisplayName Value="Run" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
+      <InstanceUniqueId Value="Automator-8DE8A7A840D6524\EntryPoint-8DE8A7A9212A01C" />
+      <MemberDetails Value=".Run" />
+      <MethodName Value="_EntryPointExecute" />
+      <Removing Value="False" />
+      <Sensitive Value="False" Extended="True" />
+      <UseAlias Value="True" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="True" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.Void" aliasName="Result" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+    </OpenSpan.Automation.EntryPoint>
+	    <Pega.Controls.Variables.StringVariable Name="str_RomNine" Id="StringVariable-8DE8374904F9ED0">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti5" Id="ConnectableProperties-8DE837490515E05">
+      <ComponentName Value="str_RomNine" />
+      <DefaultValues Value="Value=$[7v+n/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374904F9ED0" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomEight" Id="StringVariable-8DE8374B1478BE5">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti7" Id="ConnectableProperties-8DE8374B1492CEF">
+      <ComponentName Value="str_RomEight" />
+      <DefaultValues Value="Value=$[4P///7b/tv8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374B1478BE5" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomSeven" Id="StringVariable-8DE8374B3033578">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti8" Id="ConnectableProperties-8DE8374B30473BB">
+      <ComponentName Value="str_RomSeven" />
+      <DefaultValues Value="Value=$[qba2/7b/]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374B3033578" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomSix" Id="StringVariable-8DE8374B44AD558">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti9" Id="ConnectableProperties-8DE8374B44C3AF4">
+      <ComponentName Value="str_RomSix" />
+      <DefaultValues Value="Value=$[4P+2/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374B44AD558" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomFive" Id="StringVariable-8DE8374B574A93F">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert10" Id="ConnectableProperties-8DE8374B576A8E5">
+      <ComponentName Value="str_RomFive" />
+      <DefaultValues Value="Value=$[qf8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374B574A93F" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomFour" Id="StringVariable-8DE8374BCE11A8E">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert11" Id="ConnectableProperties-8DE8374BCE25053">
+      <ComponentName Value="str_RomFour" />
+      <DefaultValues Value="Value=$[4P+p/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374BCE11A8E" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomThree" Id="StringVariable-8DE8374DF959753">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert12" Id="ConnectableProperties-8DE8374DF96F960">
+      <ComponentName Value="str_RomThree" />
+      <DefaultValues Value="Value=$[tra2/7b/]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374DF959753" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomTwo" Id="StringVariable-8DE8374E5506273">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert13" Id="ConnectableProperties-8DE8374E5519C2E">
+      <ComponentName Value="str_RomTwo" />
+      <DefaultValues Value="Value=$[//+2/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374E5506273" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomOne" Id="StringVariable-8DE8374F338FB6B">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert14" Id="ConnectableProperties-8DE8374F33A5A8F">
+      <ComponentName Value="str_RomOne" />
+      <DefaultValues Value="Value=$[tv8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE8374F338FB6B" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod4" Id="ConnectableMethod-8DE83743F1F7CC7">
+      <ComponentName Value="String" />
+      <DisplayName Value="Concat" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Services.IStringService" />
+      <InstanceUniqueId Value="EMPTY" />
+      <MemberDetails Value=".Concat() Method" />
+      <ParamsLength Value="10" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.String" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Concat" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.String" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="list" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.String[]" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <Pega.Controls.Variables.IntegerVariable Name="int_InputNumber" Id="IntegerVariable-8DE8378006CC3EE">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti2" Id="ConnectableProperties-8DE8378006E7437">
+      <ComponentName Value="int_InputNumber" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378006CC3EE" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod1" Id="ConnectableMethod-8DE83781D7F868B">
+      <ComponentName Value="int_InputNumber" />
+      <DisplayName Value="GreaterThanOrEqualTo" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378006CC3EE" />
+      <MemberDetails Value=".GreaterThanOrEqualTo() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="GreaterThanOrEqualTo" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Boolean" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Boolean" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="True" />
+                      <DefaultValue Value="1000" />
+                      <IsThis Value="False" />
+                      <ParamName Value="value" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod2" Id="ConnectableMethod-8DE83782E20C05A">
+      <ComponentName Value="int_InputNumber" />
+      <DisplayName Value="GreaterThanOrEqualTo" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378006CC3EE" />
+      <MemberDetails Value=".GreaterThanOrEqualTo() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="GreaterThanOrEqualTo" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Boolean" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Boolean" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="True" />
+                      <DefaultValue Value="100" />
+                      <IsThis Value="False" />
+                      <ParamName Value="value" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod3" Id="ConnectableMethod-8DE83784F4D1E70">
+      <ComponentName Value="int_InputNumber" />
+      <DisplayName Value="GreaterThanOrEqualTo" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378006CC3EE" />
+      <MemberDetails Value=".GreaterThanOrEqualTo() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="GreaterThanOrEqualTo" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Boolean" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Boolean" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="True" />
+                      <DefaultValue Value="10" />
+                      <IsThis Value="False" />
+                      <ParamName Value="value" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod5" Id="ConnectableMethod-8DE8378D23C985A">
+      <ComponentName Value="System.Math" />
+      <CustomTitle Value="Math" />
+      <DisplayName Value="DivRem" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="System.Math" />
+      <InstanceUniqueId Value="EMPTY" />
+      <MemberDetails Value=".DivRem() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.Int32" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="DivRem" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Int32" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="a" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="b" />
+                      <Position Value="1" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="True" />
+                      <CanWrite Value="False" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="result" />
+                      <Position Value="2" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <Pega.Controls.Variables.IntegerVariable Name="int_DivByThou" Id="IntegerVariable-8DE8378EBEBCA17">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert15" Id="ConnectableProperties-8DE8378EBED6F25">
+      <ComponentName Value="int_DivByThou" />
+      <DefaultValues Value="Value=$[/v///8//z/8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378EBEBCA17" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert16" Id="ConnectableProperties-8DE8378FB5C412C">
+      <ComponentName Value="int_InputNumber" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378006CC3EE" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod6" Id="ConnectableMethod-8DE837928D8C486">
+      <ComponentName Value="System.Math" />
+      <CustomTitle Value="Math" />
+      <DisplayName Value="DivRem" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="System.Math" />
+      <InstanceUniqueId Value="EMPTY" />
+      <MemberDetails Value=".DivRem() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.Int32" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="DivRem" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Int32" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="a" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="b" />
+                      <Position Value="1" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="True" />
+                      <CanWrite Value="False" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="result" />
+                      <Position Value="2" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert17" Id="ConnectableProperties-8DE8379363055CC">
+      <ComponentName Value="int_InputNumber" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378006CC3EE" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_DivByHund" Id="IntegerVariable-8DE83793E956B3F">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert18" Id="ConnectableProperties-8DE83793E9753B2">
+      <ComponentName Value="int_DivByHund" />
+      <DefaultValues Value="Value=$[zs/P/8//]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE83793E956B3F" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod7" Id="ConnectableMethod-8DE837951C710B8">
+      <ComponentName Value="System.Math" />
+      <CustomTitle Value="Math" />
+      <DisplayName Value="DivRem" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="System.Math" />
+      <InstanceUniqueId Value="EMPTY" />
+      <MemberDetails Value=".DivRem() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="System.Int32" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="DivRem" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Int32" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="a" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="b" />
+                      <Position Value="1" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="True" />
+                      <CanWrite Value="False" />
+                      <DefaultSet Value="False" />
+                      <IsThis Value="False" />
+                      <ParamName Value="result" />
+                      <Position Value="2" />
+                      <TypeAssemblyName Value="System.Private.CoreLib" />
+                      <TypeName Value="System.Int32" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert19" Id="ConnectableProperties-8DE83796A47A98A">
+      <ComponentName Value="int_InputNumber" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8378006CC3EE" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_DivByTen" Id="IntegerVariable-8DE8379797AFDC9">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert20" Id="ConnectableProperties-8DE8379797D0A13">
+      <ComponentName Value="int_DivByTen" />
+      <DefaultValues Value="Value=$[/v/P/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE8379797AFDC9" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_ThousRem" Id="IntegerVariable-8DE843D18DCDB73">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti1" Id="ConnectableProperties-8DE843D18E0B6CA">
+      <ComponentName Value="int_ThousRem" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE843D18DCDB73" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_NumberOFThousands" Id="IntegerVariable-8DE843D327240F0">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti3" Id="ConnectableProperties-8DE843D32742527">
+      <ComponentName Value="int_NumberOFThousands" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE843D327240F0" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_HundRem" Id="IntegerVariable-8DE843D43E73995">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti4" Id="ConnectableProperties-8DE843D43E91AD7">
+      <ComponentName Value="int_HundRem" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE843D43E73995" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_NumberOfHundreds" Id="IntegerVariable-8DE843D4B62AB61">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert21" Id="ConnectableProperties-8DE843D4B6475DE">
+      <ComponentName Value="int_NumberOfHundreds" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE843D4B62AB61" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_TensRem" Id="IntegerVariable-8DE843D59110B28">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert22" Id="ConnectableProperties-8DE843D5912EB61">
+      <ComponentName Value="int_TensRem" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE843D59110B28" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.IntegerVariable Name="int_NumberOfTens" Id="IntegerVariable-8DE843D617CE7FD">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="z/8=" Encryption="1" />
+    </Pega.Controls.Variables.IntegerVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert23" Id="ConnectableProperties-8DE843D617F0835">
+      <ComponentName Value="int_NumberOfTens" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.IntegerVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\IntegerVariable-8DE843D617CE7FD" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.Int32" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomTen" Id="StringVariable-8DE843D84EC7FA8">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert24" Id="ConnectableProperties-8DE843D84EED985">
+      <ComponentName Value="str_RomTen" />
+      <DefaultValues Value="Value=$[p/8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843D84EC7FA8" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomTwenty" Id="StringVariable-8DE843D8F905BDD">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert25" Id="ConnectableProperties-8DE843D8F92D328">
+      <ComponentName Value="str_RomTwenty" />
+      <DefaultValues Value="Value=$[//+n/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843D8F905BDD" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomThirty" Id="StringVariable-8DE843D972EE126">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert26" Id="ConnectableProperties-8DE843D973121ED">
+      <ComponentName Value="str_RomThirty" />
+      <DefaultValues Value="Value=$[p6en/6f/]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843D972EE126" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomForty" Id="StringVariable-8DE843D9FF3F148">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert27" Id="ConnectableProperties-8DE843D9FF71867">
+      <ComponentName Value="str_RomForty" />
+      <DefaultValues Value="Value=$[6/+z/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843D9FF3F148" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomFifty" Id="StringVariable-8DE843DB49A817A">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert28" Id="ConnectableProperties-8DE843DB49CC324">
+      <ComponentName Value="str_RomFifty" />
+      <DefaultValues Value="Value=$[s/8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843DB49A817A" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomSixty" Id="StringVariable-8DE843DC0C20736">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert29" Id="ConnectableProperties-8DE843DC0C4B5BC">
+      <ComponentName Value="str_RomSixty" />
+      <DefaultValues Value="Value=$[6/+n/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843DC0C20736" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomSeventy" Id="StringVariable-8DE843DCD4C2F2F">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert30" Id="ConnectableProperties-8DE843DCD4E9EFD">
+      <ComponentName Value="str_RomSeventy" />
+      <DefaultValues Value="Value=$[s6en/6f/]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843DCD4C2F2F" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomEighty" Id="StringVariable-8DE843DD5D29603">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert31" Id="ConnectableProperties-8DE843DD5D4DFB1">
+      <ComponentName Value="str_RomEighty" />
+      <DefaultValues Value="Value=$[6////6f/p/8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843DD5D29603" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomNinety" Id="StringVariable-8DE843DE3899D69">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert32" Id="ConnectableProperties-8DE843DE38BF458">
+      <ComponentName Value="str_RomNinety" />
+      <DefaultValues Value="Value=$[5P+8/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843DE3899D69" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomHundred" Id="StringVariable-8DE843DEE68F7FC">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert33" Id="ConnectableProperties-8DE843DEE6B1DE7">
+      <ComponentName Value="str_RomHundred" />
+      <DefaultValues Value="Value=$[vP8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843DEE68F7FC" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomTwoHund" Id="StringVariable-8DE843DFA59722A">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert34" Id="ConnectableProperties-8DE843DFA5BCE57">
+      <ComponentName Value="str_RomTwoHund" />
+      <DefaultValues Value="Value=$[//+8/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843DFA59722A" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomThreeHund" Id="StringVariable-8DE843E0B1C4029">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <Pega.Controls.Variables.StringVariable Name="str_RomFourHund" Id="StringVariable-8DE843E1794F1C3">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert36" Id="ConnectableProperties-8DE843E17972D64">
+      <ComponentName Value="str_RomFourHund" />
+      <DefaultValues Value="Value=$[+P+7/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843E1794F1C3" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomFiveHund " Id="StringVariable-8DE843E238695E2">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert37" Id="ConnectableProperties-8DE843E2389300E">
+      <ComponentName Value="str_RomFiveHund " />
+      <DefaultValues Value="Value=$[u/8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843E238695E2" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomSixHund" Id="StringVariable-8DE843E40FF8C7C">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert38" Id="ConnectableProperties-8DE843E41020847">
+      <ComponentName Value="str_RomSixHund" />
+      <DefaultValues Value="Value=$[+P+8/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843E40FF8C7C" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomSevenHund" Id="StringVariable-8DE843E52A36CB7">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert39" Id="ConnectableProperties-8DE843E52A61A4A">
+      <ComponentName Value="str_RomSevenHund" />
+      <DefaultValues Value="Value=$[u7y8/7z/]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843E52A36CB7" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomEightHund" Id="StringVariable-8DE843E5D184FB2">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert40" Id="ConnectableProperties-8DE843E5D1AD0C1">
+      <ComponentName Value="str_RomEightHund" />
+      <DefaultValues Value="Value=$[+P///7z/vP8=]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843E5D184FB2" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <Pega.Controls.Variables.StringVariable Name="str_RomNineHund" Id="StringVariable-8DE843E6821E45F">
+      <Scope Value="Local" Extended="True" />
+      <Sensitive Value="False" Extended="True" />
+      <Value Value="" Encryption="1" />
+    </Pega.Controls.Variables.StringVariable>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectablePropert41" Id="ConnectableProperties-8DE843E68245E9D">
+      <ComponentName Value="str_RomNineHund" />
+      <DefaultValues Value="Value=$[8f+y/w==]" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="Pega.Controls.Variables.StringVariable" />
+      <InstanceUniqueId Value="Automator-8DE83727F9A56B2\StringVariable-8DE843E6821E45F" />
+      <MemberDetails Value=".Value Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Value" />
+            <MemberType Value="Property" />
+            <TypeAssemblyName Value="System.Private.CoreLib" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+  </Component>
+</OpenSpanDesignDocument>

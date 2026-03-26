@@ -1,0 +1,27 @@
+{
+  "Id": "Project-8DE7F83FFDC0A06",
+  "Exclude": [
+    "bin",
+    "**/_xray_",
+    "**.xray*",
+    "**.git*",
+    "**/project.*",
+    "**.md5",
+    "**.etag",
+    "**.rasl",
+    "**.json",
+    "\\*_/project._",
+    "**/publicassemblies"
+  ],
+  "Include": [],
+  "DeploymentExclude": [
+    "**.Screenshots.pResources",
+    "**.TestCases.pResources",
+    "**.TestResults.pResources"
+  ],
+  "Upgrade": {
+    "Project": "25.1.6",
+    "Transformation": "25.1.0.16"
+  },
+  "Settings": []
+}
