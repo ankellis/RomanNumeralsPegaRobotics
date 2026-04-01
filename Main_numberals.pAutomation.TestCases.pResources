@@ -5,11 +5,11 @@
       "Value": {
         "AutomationId": "Automator-8DE7F83FFDDAC4C",
         "Signature": {
-          "ReturnType": "string",
+          "ReturnType": "void",
           "Params": [
             {
               "Name": "param1",
-              "Type": "int",
+              "Type": "string",
               "In": true,
               "Simple": true
             },
@@ -24,6 +24,20 @@
               "Name": "_param2",
               "Index": 2,
               "Type": "bool",
+              "Out": true,
+              "Simple": true
+            },
+            {
+              "Name": "_param3",
+              "Index": 3,
+              "Type": "int",
+              "Out": true,
+              "Simple": true
+            },
+            {
+              "Name": "_param4",
+              "Index": 4,
+              "Type": "string",
               "Out": true,
               "Simple": true
             }
@@ -46,10 +60,9 @@
                   "Name": "Result",
                   "AliasName": "Result",
                   "Position": -1,
-                  "TypeName": "System.String"
+                  "TypeName": "System.Void"
                 },
-                "Relationship": "IsEqualTo",
-                "ExpectedValue": "IV"
+                "Relationship": "IsEqualTo"
               },
               {
                 "Id": 2,
@@ -67,8 +80,8 @@
               {
                 "Name": "param1",
                 "AliasName": "InputNum",
-                "ValueText": "4",
-                "TypeName": "System.Int32",
+                "ValueText": "\"4\"",
+                "TypeName": "System.String",
                 "IsIn": true
               },
               {
@@ -82,13 +95,25 @@
                 "AliasName": "TechError",
                 "Position": 2,
                 "TypeName": "System.Boolean"
+              },
+              {
+                "Name": "_param3",
+                "AliasName": "INtResults",
+                "Position": 3,
+                "TypeName": "System.Int32"
+              },
+              {
+                "Name": "_param4",
+                "AliasName": "FinalResults",
+                "Position": 4,
+                "TypeName": "System.String"
               }
             ],
             "ReturnTestData": {
               "Name": "Result",
               "AliasName": "Result",
               "Position": -1,
-              "TypeName": "System.String"
+              "TypeName": "System.Void"
             }
           }
         ]
